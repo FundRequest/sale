@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: "CooperHewitt Book", Helvetica, Arial, sans-serif;
 }
 
 img {
@@ -11,6 +12,14 @@ img {
 
 .subtitle {
     color: #40a6da;
+}
+
+.jumbotron {
+    padding-bottom: 5px;
+}
+
+.marginleft15 {
+    margin-left: 15px;
 }
 
 .spacer20 {
@@ -36,4 +45,37 @@ img {
         transform: rotate(360deg);
     }
 }
+
+ul#clock {
+    color: #40a6da;
+    list-style: none;
+    padding: 0;
+    display: block;
+}
+
+ul#clock li {
+    display: inline-block;
+}
+
+ul#clock li span {
+    min-width: 60px;
+    text-align: center;
+    display: inline-block;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+ul#clock li.seperator {
+    font-size: 50px;
+    line-height: 50px;
+    vertical-align: top;
+}
+
+ul#clock li p {
+    color: #40a6da;
+    font-size: 15px;
+    text-align: center;
+}
+
 
